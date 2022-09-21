@@ -48,7 +48,7 @@ button {
   color: black;
 }
 
-#image-container {
+.image-container {
   margin: 40px;
   width: fit-content;
 }
@@ -184,10 +184,22 @@ button {
 }
 
 /* About */
-#AboutMeContainer {
-  width: 200px;
+#About-Me-Container {
+  width: 500px;
   font-size: large;
-  word-wrap: break-word;
+  position: absolute;
+  left: 35%;
+  text-align: center;
+  line-height: 30px;
+}
+#About-me-image {
+  width: 443px;
+  height: 500px;
+  background-color: #aec493;
+  border-radius: 50%;
+  display: flex;
+  justify-content: left;
+  overflow: hidden;
 }
 
 /* ThankYouPage */
