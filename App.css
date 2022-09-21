@@ -13,6 +13,8 @@ label {
   display: flex;
   align-items: center;
   margin-bottom: 1px;
+  font-weight: 700;
+  padding: 2px;
 }
 header {
   border-bottom: 2px solid black;
@@ -52,14 +54,15 @@ button {
 }
 /* Home Page */
 #image {
-  width: 450px;
-  height: 450px;
+  width: 443px;
+  height: 500px;
   background-color: #aec493;
   border-radius: 50%;
   display: flex;
   align-items: flex-end;
   justify-content: center;
   float: right;
+  overflow: hidden;
 }
 
 .displayWorkButtonContainer {
@@ -72,9 +75,9 @@ button {
   height: fit-content;
   padding: 10px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 23px;
   background: #e5e29f;
-  color: black;
+  font-weight: 550;
   border-radius: 15px;
 }
 
@@ -127,27 +130,26 @@ button {
 }
 
 .form-group {
-  margin: 0 auto 1.25rem auto;
-  padding: 0.25rem;
+  margin: 0 auto 25px auto;
+  padding: 4;
 }
 
 .form-control {
   display: block;
   width: 100%;
-  height: 2.375rem;
-  padding: 0.375rem 0.75rem;
+  height: 40px;
+  padding: 6px 12px;
   color: #495057;
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
-  border-radius: 0.25rem;
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  border-radius: 4px;
 }
 
 .form-control:focus {
   border-color: #80bdff;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  box-shadow: 0 0 0 0 4px rgba(0, 123, 255, 0.25);
 }
 .input-textarea {
   min-height: 100px;
