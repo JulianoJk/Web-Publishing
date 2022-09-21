@@ -63,12 +63,9 @@ button {
 }
 
 .displayWorkButtonContainer {
-  margin: 10;
-  text-align: right;
-  margin: 150px;
-  bottom: 0;
-  right: 0;
   position: absolute;
+  right: 17%;
+  top: 58%;
 }
 .displayWorkButton {
   width: fit-content;
