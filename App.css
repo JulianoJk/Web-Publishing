@@ -114,7 +114,7 @@ button {
 #index-text-three {
   font-size: 40px;
   margin: 5px 0;
-  color: #ce746c;
+  color: #ce8d6c;
 }
 #index-text-four {
   font-size: 23px;
@@ -213,7 +213,7 @@ button {
 .form-control:focus {
   border-color: #80bdff;
   outline: 0;
-  box-shadow: 0 0 0 0 4px rgba(0, 123, 255, 0.25);
+  box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.25);
 }
 .input-textarea {
   min-height: 100px;
